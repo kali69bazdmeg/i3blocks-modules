@@ -12,3 +12,36 @@ cargo -r
 cp target/debug/<module> ~./config/i3/binaries/<module>
 chmod +x ~./config/i3/binaries/<module>
 ```
+
+### Config example
+```
+[battery]
+command=~/.config/i3/rust_binaries/battery
+interval=1
+color=#d5d4d4
+background=#111111
+border=#111111
+border_right=6
+border_left=6
+markup=pango
+
+[date]
+command=~/.config/i3/rust_binaries/date
+interval=1
+color=#d5d4d4
+background=#111111
+border=#111111
+border_right=6
+border_left=6
+markup=pango
+
+[time]
+command=~/.config/i3/rust_binaries/time
+interval=1
+color=#d5d4d4
+background=#111111
+border=#111111
+border_right=6
+border_left=6
+markup=pango
+```
