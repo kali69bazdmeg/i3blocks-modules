@@ -1,1 +1,1 @@
-# i3blocks-modules
+# i3blocks-modules.
