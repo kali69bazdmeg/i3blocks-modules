@@ -9,7 +9,7 @@ You will need to install rust and nerd-fonts.
 git clone https://github.com/kali69bazdmeg/i3blocks-modules.git
 cd i3blocks-modules
 cargo -r
-cp target/debug/<module> ~./config/i3/binaries/<module>
+cp target/debug/<module> ~./config/i3/rust_binaries/<module>
 chmod +x ~./config/i3/binaries/<module>
 ```
 
